@@ -5,7 +5,7 @@ export default function NavBar() {
     <header className="absolute flex w-screen items-center">
       <nav className="flex w-full items-center justify-between px-24 py-12">
         <span>MDassessoria</span>
-        <ul className="flex">
+        <ul className="hidden md:flex">
           <li><Link href="#" className="p-4">Home</Link></li>
           <li><Link href="#" className="p-4">Exhibitions</Link></li>
           <li><Link href="#" className="p-4">Collections</Link></li>
